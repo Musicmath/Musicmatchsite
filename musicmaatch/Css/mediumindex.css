@@ -1,0 +1,124 @@
+﻿Body{
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+#bigButton{
+font-size:1.1em;
+font-weight: bold;
+background-color:#00BFFF	;
+padding:8px;
+border-radius: 25px;
+margin-left:10px;
+}
+
+#header{
+background: url(../hbilder/Header.jpg) 100% 0 no-repeat fixed; 
+background-size:cover;
+height: 900px; 
+
+
+}
+
+
+.blank{
+background-color:#454545;
+height:300px;
+margin-top:-20px;
+
+}
+
+#logo{
+margin-top:1px;
+padding:5px;
+margin-left:100px;
+z-index:1;
+position:fixed;
+background:url(../hbilder/mediumlogo.png);
+height:50px;
+width:50px;
+}
+
+
+
+ul.nav{
+position:fixed;
+padding:20px;
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
+margin:0px;
+font-weight: bold;
+width:100%;
+
+}
+
+.nav{
+text-align:center;
+
+
+}
+
+.nav li{
+list-style:none;
+display:inline;
+
+
+}
+
+.nav li a{
+font-family:helvetica;
+text-decoration:none;
+Color:white;
+padding: 10px;
+
+}
+
+.nav li a:hover{
+text-decoration:underline;
+
+}
+
+
+.story { 
+height: 900px; 
+padding: 0; 
+margin: 0; 
+width: 100%; 
+max-width:100%;
+margin: auto; 
+border-top: 1px solid rgba(255,255,255,0.3); 
+border-bottom: 1px solid rgba(0,0,0,0.4); 
+}
+
+#first { background: url(../hbilder/slide.jpg) 100% 0 no-repeat fixed; 
+background-size:cover;
+}
+#second { background: url(../hbilder/slide2.1.jpg) 100% 0 no-repeat fixed;
+background-size:cover;
+ }
+#third { background: url(../hbilder/slide3.jpg)  100% 0 no-repeat fixed ;
+
+background-size:cover;
+
+ }
+#fourth { background: url(../hbilder/slide4.jpg) 25% 0 no-repeat fixed; 
+
+background-size:cover;
+
+}
+
+
+
+#footer1{
+
+background: url(../hbilder/endoftheline.jpg);
+background-size:cover;
+}
+
+footer{
+height:100px;
+
+}
+
