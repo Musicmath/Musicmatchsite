@@ -31,6 +31,34 @@ margin-top:-20px;
 
 }
 
+.blank h1{
+color:white;
+text-align:center;
+font-family:  "Arial";
+font-weight: bold;
+font-size: 3em;
+line-height: 1.1em;
+margin:0px;
+text-transform: uppercase;
+padding:10px;
+}
+
+.blank img{
+margin:auto;
+}
+.blank p {
+color:white;
+text-align:center;
+margin:auto;
+font-family:  "Arial";
+font-weight: normal;
+font-size: 1em;
+line-height: 1.1em;
+text-transform: uppercase;
+padding:10px;
+width:600px;
+}
+
 #logo{
 margin-top:1px;
 padding:5px;
@@ -90,6 +118,31 @@ max-width:100%;
 margin: auto; 
 border-top: 1px solid rgba(255,255,255,0.3); 
 border-bottom: 1px solid rgba(0,0,0,0.4); 
+}
+
+
+#p2b{
+
+height:auto;
+width: 99%;
+padding: 6px;
+}
+
+#Bilder2{
+box-shadow: -10px 10px 10px 3px black;
+margin-left:-18px;
+margin-top:30px;
+height:auto;
+width:250px;
+
+}
+
+#blank2{
+
+float:left;
+margin-left: -30px;
+margin-top: 50px;
+
 }
 
 #first { background: url(../hbilder/slide.jpg) 100% 0 no-repeat fixed; 
