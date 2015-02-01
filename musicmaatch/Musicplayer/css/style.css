@@ -1,8 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
+border: none;
+outline: none;
 }
 
 body{
@@ -11,6 +9,11 @@ body{
 	line-height:1.5em;
 	color:#fff;
 	background: url(../images/bg.png);
+	margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 
 
@@ -78,12 +81,12 @@ padding: 10px;
 }
 
 #container{
-	width:330px;
-	min-height:400px;
-	background:#333;
+	z-index:;
+	width: 50%;
+min-height: 150px;
+background: none repeat scroll 0% 0% rgba(5, 0, 0, 0.6);
 	overflow:auto;
-	margin-top:100px;
-	margin-left:800px;
+	margin:auto;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;
