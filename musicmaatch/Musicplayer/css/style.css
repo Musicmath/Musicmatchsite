@@ -196,9 +196,7 @@ margin-left:-41px;
 }
 
 #duration{
-	position:absolute;
-	top:0;
-	right:10px;
+	position:relative;
 	padding:4px 8px;
 	background:#000;
 	border-radius:5px;
