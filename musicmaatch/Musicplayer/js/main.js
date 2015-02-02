@@ -46,15 +46,6 @@ $('#pause').click(function(){
 	$('#play').show();
 });
 	
-//Stop Button
-$('#stop').click(function(){
-	audio.pause();		
-	audio.currentTime = 0;
-	$('#pause').hide();
-	$('#play').show();
-	$('#duration').fadeOut(400);
-});
-
 //Next Button
 $('#next').click(function(){
     audio.pause();
