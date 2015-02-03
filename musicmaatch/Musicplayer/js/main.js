@@ -19,8 +19,8 @@ function initAudio(element){
 		$('#duration').html('0.00');
 	}
 
-	$('#audio-player .title').text(title);
-    $('#audio-player .artist').text(artist);
+	$('#audio-info .title').text(title);
+    $('#audio-info .artist').text(artist);
 	
 	//Insert Cover Image
 	$('img.cover').attr('src','images/covers/' + cover);

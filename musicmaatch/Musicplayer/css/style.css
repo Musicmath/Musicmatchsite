@@ -90,12 +90,10 @@ background-color:black;
 }
 
 #playbar{
-z-index:;
 width: 100%;
 background: none repeat scroll 0% 0% rgba(5, 0, 0, 0.6);
 overflow:auto;
-margin-top:80px;
-height:50px;
+height:auto;
 background-color:black;
 }
 
@@ -103,7 +101,7 @@ background-color:black;
 	position:relative;
 	overflow:hidden;
 	height:200px;
-	margin-bottom:15px;
+	width:20%;
 }
 
 #audio-info{
@@ -119,13 +117,17 @@ background-color:black;
 	z-index:2;
 }
 
+#audio-player{
+height:auto;
+}
+
 input#volume {
-	width:95%;
-	margin-left:2%;
-    -webkit-appearance: none !important;
-    background:#ccc;
-    height:1px;
-	margin-bottom:20px;
+width: 120px;
+margin-left: 4%;
+background: none repeat scroll 0% 0% #CCC;
+height: 1px;
+position: absolute;
+margin-top: 30px;
 }
 input#volume::-webkit-slider-thumb {
     -webkit-appearance: none !important;
@@ -138,7 +140,7 @@ input#volume::-webkit-slider-thumb {
 border-style:none;
 width:225px;
 padding:5px;
-margin:auto;
+
 }
 
 
@@ -196,6 +198,10 @@ margin-left:-41px;
 
 #tracker{
 
+position: absolute;
+margin-top: -65px;
+width: 350px;
+margin-left: 400px;
 }
 
 #playlist li.active {
@@ -220,8 +226,12 @@ margin-left:-41px;
 
 #duration{
 	position:relative;
+	float: left;
 	padding:4px 8px;
 	background:#000;
 	border-radius:5px;
 }
 
+footer{
+margin-top: 347px;
+}
