@@ -98,7 +98,7 @@ background-color:black;
 }
 
 #audio-image{
-	position:relative;
+	position:absolute;
 	overflow:hidden;
 	height:200px;
 	width:20%;
