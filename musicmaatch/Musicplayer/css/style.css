@@ -105,16 +105,18 @@ background-color:black;
 position:relative;
 width: 4%;
 height: auto;
+bottom: -64px;
 }
 
 #audio-info{
+background-color: black;
+width: 200px;
+padding: 6px;
+left: 63px;
+bottom: 64px;
 text-align: center;
 position: relative;
-left: 63px;
-bottom: 63px;
-background-color: black;
-padding: 11px;
-width: 100px;
+height: 52px;
 }
 
 #audio-info .artist{
@@ -132,7 +134,7 @@ height:auto;
 
 input#volume {
 width: 120px;
-margin-left: 4%;
+left: 210px;
 background: none repeat scroll 0% 0% #CCC;
 height: 1px;
 position: absolute;
@@ -243,5 +245,5 @@ margin-left: 400px;
 
 footer{
 position: relative;
-top: 48px;
+top: 24px;
 }
