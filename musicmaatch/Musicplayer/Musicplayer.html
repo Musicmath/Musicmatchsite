@@ -1,91 +1,91 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Musicplayer</title>
-    <link rel="stylesheet" href="css/style.css" media="screen">
-</head>
-<body>
-
-<section id="Menu">
-<a id="mlogo"></a>
-<nav>
-<span class="menu-btn"></span>
-<a id="logo" href="../index.html"></a>
-		<ul class="nav">
-			<li> <a href="../index.html">Home</a> </li>
-			<li> <a href="#">Music</a> </li>
-			<li> <a href="about.html">Daily</a> </li>
-			<li> <a href="#">Contact</a> </li>
-			<li id="bigButton"> <a href="#"> Log in</a> </li>
-			<li id="bigButton"> <a href="#"> create account</a> </li>
-		</ul>
-	</nav>
-</section>
-
-		 <div id="container">
-		
-		 <ul id="playlist" class="hidden">
-			<li song="Vigiland.mp3" cover="cover2.jpg" artist="Vigiland">UFO</li>
-			<li song="Linkin Park - One Step Closer.mp3" cover="cover1.jpg" artist="Linkin Park">One Step Closer.mp3</li>
-			<li song="Linkin Park - With You.mp3" cover="cover1.jpg" artist="Linkin Park">With You.mp3</li>
-			<li song="Linkin Park - Points Of Authority.mp3" cover="cover1.jpg" artist="Linkin Park">Points Of Authority.mp3</li>
-			<li song="Linkin Park - Crawling.mp3" cover="cover1.jpg" artist="Linkin Park">Crawling.mp3</li>
-			<li song="Linkin Park - Runaway.mp3" cover="cover1.jpg" artist="Linkin Park">Runaway.mp3</li>
-			<li song="Linkin Park - By Myself.mp3" cover="cover1.jpg" artist="Linkin Park">By Myself.mp3</li>
-			<li song="Linkin Park - In The End.mp3" cover="cover1.jpg" artist="Linkin Park">In The End.mp3</li>
-			<li song="Linkin Park - A Place For My Head.mp3" cover="cover1.jpg" artist="Linkin Park">A Place For My Head.mp3</li>
-			<li song="Linkin Park - Forgotten.mp3" cover="cover1.jpg" artist="Linkin Park">Forgotten.mp3</li>
-			<li song="Linkin Park - Cure For The Itch.mp3" cover="cover1.jpg" artist="Linkin Park">Cure For The Itch.mp3</li>
-			<li song="Linkin Park - Pushing Me Away.mp3" cover="cover1.jpg" artist="Linkin Park">Pushing Me Away.mp3</li>
-			<li song="Vigiland.mp3" cover="cover2.jpg" artist="Vigiland">UFO</li>
-			<li song="Linkin Park - One Step Closer.mp3" cover="cover1.jpg" artist="Linkin Park">One Step Closer.mp3</li>
-			<li song="Linkin Park - With You.mp3" cover="cover1.jpg" artist="Linkin Park">With You.mp3</li>
-			<li song="Linkin Park - Points Of Authority.mp3" cover="cover1.jpg" artist="Linkin Park">Points Of Authority.mp3</li>
-			<li song="Linkin Park - Crawling.mp3" cover="cover1.jpg" artist="Linkin Park">Crawling.mp3</li>
-			<li song="Linkin Park - Runaway.mp3" cover="cover1.jpg" artist="Linkin Park">Runaway.mp3</li>
-			<li song="Linkin Park - By Myself.mp3" cover="cover1.jpg" artist="Linkin Park">By Myself.mp3</li>
-			<li song="Linkin Park - In The End.mp3" cover="cover1.jpg" artist="Linkin Park">In The End.mp3</li>
-			<li song="Linkin Park - A Place For My Head.mp3" cover="cover1.jpg" artist="Linkin Park">A Place For My Head.mp3</li>
-			<li song="Linkin Park - Forgotten.mp3" cover="cover1.jpg" artist="Linkin Park">Forgotten.mp3</li>
-			<li song="Linkin Park - Cure For The Itch.mp3" cover="cover1.jpg" artist="Linkin Park">Cure For The Itch.mp3</li>
-			<li song="Linkin Park - Pushing Me Away.mp3" cover="cover1.jpg" artist="Linkin Park">Pushing Me Away.mp3</li>
-			
-		</ul>
-	</div>
-	
-<footer>	
-
-
-<div id="playbar">
-<div id="audio-image">
-		<img class="cover" />
-	<div id="audio-info">
-			<span class="artist"></span> <br /> <span class="title"></span>
-		</div>
-	</div>
-	<div id="audio-player">
-		 <div id="buttons">
-		 <span>
-			<button id="prev"></button>
-			<button id="play"></button>
-			<button id="pause"></button>
-			<button id="next"></button>
-			<input id="volume" type="range" min="0" max="10" value="5" />
-			</span>
-		 </div>
-		 <div class="clearfix"></div>
-		 <div id="tracker">
-		 <span id="duration"></span>
-			<div id="progressBar">
-			<progress id="progress" value="1" max="100"></progress>
-			<!--<span id="progress"></span>-->
-			</div>
-		 </div>
-		 <div class="clearfix"></div>
-</div>		 
-		 </div>
-
-</footer>
-<script src="js/jquery.js"></script>
-<script src="js/main.js"></script>
-</body>
+   <head>
+      <title>Musicplayer</title>
+      <link rel="stylesheet" href="css/style.css" media="screen">
+   </head>
+   <body>
+      <section id="Menu">
+         <a id="mlogo"></a>
+         <nav>
+            <span class="menu-btn"></span>
+            <a id="logo" href="../index.html"></a>
+            <ul class="nav">
+               <li> <a href="../index.html">Home</a> </li>
+               <li> <a href="#">Music</a> </li>
+               <li> <a href="about.html">Daily</a> </li>
+               <li> <a href="#">Contact</a> </li>
+               <li id="bigButton"> <a href="#"> Log in</a> </li>
+               <li id="bigButton"> <a href="#"> create account</a> </li>
+            </ul>
+         </nav>
+      </section>
+	  <section id="Playlist">
+      <div id="container">
+         <ul id="playlist" class="hidden">
+            <li song="Vigiland.mp3" cover="cover2.jpg" artist="Vigiland">UFO</li>
+            <li song="Linkin Park - One Step Closer.mp3" cover="cover1.jpg" artist="Linkin Park">One Step Closer.mp3</li>
+            <li song="Linkin Park - With You.mp3" cover="cover1.jpg" artist="Linkin Park">With You.mp3</li>
+            <li song="Linkin Park - Points Of Authority.mp3" cover="cover1.jpg" artist="Linkin Park">Points Of Authority.mp3</li>
+            <li song="Linkin Park - Crawling.mp3" cover="cover1.jpg" artist="Linkin Park">Crawling.mp3</li>
+            <li song="Linkin Park - Runaway.mp3" cover="cover1.jpg" artist="Linkin Park">Runaway.mp3</li>
+            <li song="Linkin Park - By Myself.mp3" cover="cover1.jpg" artist="Linkin Park">By Myself.mp3</li>
+            <li song="Linkin Park - In The End.mp3" cover="cover1.jpg" artist="Linkin Park">In The End.mp3</li>
+            <li song="Linkin Park - A Place For My Head.mp3" cover="cover1.jpg" artist="Linkin Park">A Place For My Head.mp3</li>
+            <li song="Linkin Park - Forgotten.mp3" cover="cover1.jpg" artist="Linkin Park">Forgotten.mp3</li>
+            <li song="Linkin Park - Cure For The Itch.mp3" cover="cover1.jpg" artist="Linkin Park">Cure For The Itch.mp3</li>
+            <li song="Linkin Park - Pushing Me Away.mp3" cover="cover1.jpg" artist="Linkin Park">Pushing Me Away.mp3</li>
+            <li song="Vigiland.mp3" cover="cover2.jpg" artist="Vigiland">UFO</li>
+            <li song="Linkin Park - One Step Closer.mp3" cover="cover1.jpg" artist="Linkin Park">One Step Closer.mp3</li>
+            <li song="Linkin Park - With You.mp3" cover="cover1.jpg" artist="Linkin Park">With You.mp3</li>
+            <li song="Linkin Park - Points Of Authority.mp3" cover="cover1.jpg" artist="Linkin Park">Points Of Authority.mp3</li>
+            <li song="Linkin Park - Crawling.mp3" cover="cover1.jpg" artist="Linkin Park">Crawling.mp3</li>
+            <li song="Linkin Park - Runaway.mp3" cover="cover1.jpg" artist="Linkin Park">Runaway.mp3</li>
+            <li song="Linkin Park - By Myself.mp3" cover="cover1.jpg" artist="Linkin Park">By Myself.mp3</li>
+            <li song="Linkin Park - In The End.mp3" cover="cover1.jpg" artist="Linkin Park">In The End.mp3</li>
+            <li song="Linkin Park - A Place For My Head.mp3" cover="cover1.jpg" artist="Linkin Park">A Place For My Head.mp3</li>
+            <li song="Linkin Park - Forgotten.mp3" cover="cover1.jpg" artist="Linkin Park">Forgotten.mp3</li>
+            <li song="Linkin Park - Cure For The Itch.mp3" cover="cover1.jpg" artist="Linkin Park">Cure For The Itch.mp3</li>
+            <li song="Linkin Park - Pushing Me Away.mp3" cover="cover1.jpg" artist="Linkin Park">Pushing Me Away.mp3</li>
+         </ul>
+      </div>
+	  </section>
+	  <section id="Playbar">
+      <footer>
+         <div id="playbar">
+            <div id="audio-imagemove">
+               <div id="audio-image">
+                  <img class="cover" />
+                  <div id="audio-info">
+                     <span class="artist"></span> <br /> <span class="title"></span>
+                  </div>
+               </div>
+            </div>
+            <div id="audio-player">
+               <div id="buttons">
+                  <span>
+                  <button id="prev"></button>
+                  <button id="play"></button>
+                  <button id="pause"></button>
+                  <button id="next"></button>
+                  <input id="volume" type="range" min="0" max="10" value="5" />
+                  </span>
+               </div>
+               <div class="clearfix"></div>
+               <div id="tracker">
+                  <span id="duration"></span>
+                  <div id="progressBar">
+                     <progress id="progress" value="1" max="100"></progress>
+                     <!--<span id="progress"></span>-->
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+         </div>
+      </footer>
+	  </section>
+      <script src="js/jquery.js"></script>
+      <script src="js/main.js"></script>
+   </body>
 </html>
+
