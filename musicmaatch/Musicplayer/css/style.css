@@ -139,11 +139,11 @@ position: relative;
 
 input#volume {
 width: 120px;
-left: 210px;
+left: 220px;
 background: none repeat scroll 0% 0% #CCC;
 height: 3px;
 position: absolute;
-margin-top: 30px;
+top: 38px;
 }
 input#volume::-webkit-slider-thumb {
     -webkit-appearance: none !important;
@@ -165,39 +165,36 @@ button#play{
 border-style:none;
 	width:70px;
 	height:70px;
-	background:url(../images/play.png) no-repeat;float:left;
+	background:url(../images/playbutton.gif);
 }
 
 button#pause{
 border-style:none;
 	width:70px;
 	height:70px;
-	background:url(../images/pause.png) no-repeat;float:left;
+	background:url(../images/pause.png) no-repeat;
 }
 
 button#stop{
 border-style:none;
 	width:70px;
 	height:70px;
-	background:url(../images/stop.png) no-repeat;float:left;
+	background:url(../images/stop.png) no-repeat;
 }
 
 button#prev{
 border-style:none;
 	width:70px;
 	height:70px;
-	background:url(../images/prev.png) no-repeat;
-	float:left;
-	margin-top:15px;
+	background:url(../images/prev.gif) no-repeat;
+
 }
 
 button#next{
 border-style:none;
 	width:70px;
 	height:70px;
-	background:url(../images/next.png) no-repeat;
-	float:right;
-	margin-top:15px;
+	background:url(../images/next.gif) no-repeat;
 }
 
 #playlist {
