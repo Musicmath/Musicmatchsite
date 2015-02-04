@@ -102,5 +102,8 @@ function showDuration(){
 			value = Math.floor((100 / audio.duration) * audio.currentTime);
 		}
 		$('#progress').css('width',value+'%');
+		
+		
 	});
+	
 }
