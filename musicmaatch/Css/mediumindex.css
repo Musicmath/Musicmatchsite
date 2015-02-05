@@ -13,13 +13,53 @@ background-color:#00BFFF	;
 padding:8px;
 border-radius: 25px;
 margin-left:10px;
+transition:0.2s;
+cursor:pointer;
 }
+
+#bigButton:hover{
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
+transition:0.2s;
+}
+
+
+ul.nav{
+position:fixed;
+padding:20px;
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
+margin:0px;
+font-weight: bold;
+width:100%;
+
+}
+
+.nav{
+text-align:center;
+
+
+}
+
+.nav li{
+list-style:none;
+display:inline;
+
+
+}
+
+.nav li a{
+font-family:helvetica;
+text-decoration:none;
+Color:white;
+padding: 10px;
+
+}
+
+
 
 #header{
 background: url(../hbilder/Header.jpg) 100% 0 no-repeat fixed; 
 background-size:cover;
 height: 900px; 
-
 
 }
 
@@ -71,42 +111,6 @@ width:50px;
 }
 
 
-
-ul.nav{
-position:fixed;
-padding:20px;
-background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
-margin:0px;
-font-weight: bold;
-width:100%;
-
-}
-
-.nav{
-text-align:center;
-
-
-}
-
-.nav li{
-list-style:none;
-display:inline;
-
-
-}
-
-.nav li a{
-font-family:helvetica;
-text-decoration:none;
-Color:white;
-padding: 10px;
-
-}
-
-.nav li a:hover{
-text-decoration:underline;
-
-}
 
 
 .story { 
