@@ -15,14 +15,16 @@ padding: 0;
 font-size: 100%;
 font: inherit;
 vertical-align: baseline;
+
 }
+
 
 
 #logo{
 margin-top:5px;
 padding:5px;
 margin-left:100px;
-z-index:1;
+z-index:5;
 position:fixed;
 background:url(../../hbilder/biglogo2.png);
 height:40px;
@@ -52,7 +54,7 @@ background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
 margin:0px;
 font-weight: bold;
 width:100%;
-
+z-index:4;
 }
 
 .nav{
@@ -83,19 +85,20 @@ clear:both;
 
 #container{
 z-index:;
-width: 200px;
 background: none repeat scroll 0% 0% rgba(5, 0, 0, 0.6);
 background-color: #303030;
-top: 89px;
+top: 61px;
 position: fixed;
-height: 544px;
+height: 500px;
 z-index: 2;
+overflow-y: scroll;
+
 }
 
 #playbar{
 width: 100%;
 position: relative;
-top: 545px;
+top: 544px;
 }
 
 
@@ -163,8 +166,8 @@ height: 80px;
 
 button#play{
 border-style:none;
-	width:70px;
-	height:70px;
+	width:50px;
+	height:50px;
 	background:url(../images/playbutton.gif);
 }
 

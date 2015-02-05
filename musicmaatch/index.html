@@ -3,10 +3,12 @@
    <head>
       <meta charset="utf-8">
       <title>Musicmatch</title>
+	  <link href="Css/popoutform.css" rel="stylesheet">
       <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 840px)' href='Css/mobileindex.css' />
       <link rel='stylesheet' media='screen and (min-width: 841px) and (max-width: 1200px)'  href='Css/mediumindex.css' />
       <link rel='stylesheet'  media='screen and (min-width:1201px)' href='Css/largeindex.css' />
       <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	    <script src="Js/popoutform.js" type="text/javascript"></script>
       <script>
          $(function() {
          	var pull 		= $('#mlogo');
@@ -26,6 +28,11 @@
            		});
          });
       </script>
+	  <script>
+	  function div_show() {
+			document.getElementById('abc').style.display = "block";
+		}
+	  </script>
    </head>
    <body>
       <section id="Menu">
@@ -39,10 +46,35 @@
                <li> <a href="Html/about.html">Daily</a> </li>
                <li> <a href="#">Contact</a> </li>
                <li id="bigButton"> <a href="#"> Log in</a> </li>
-               <li id="bigButton"> <a href="#"> create account</a> </li>
+               <li id="bigButton"> <a onclick="div_show()"> create account</a></li>
             </ul>
          </nav>
       </section>
+	  
+	  
+<div id="abc" style="overflow:hidden;">
+<div id="popupContact">
+<form action="#" id="form" method="post" name="form">
+<img id="close" src="images/3.png" onclick ="div_hide()">
+<h2>Register account</h2>
+<hr>
+<input class="name" name="name" placeholder="First Name" type="text">
+<input class="name" name="name" placeholder="Last Name" type="text">
+<input id="email" name="email" placeholder="Email" type="text">
+<input class="password" name="password" placeholder="Password" type="password">
+<input class="password" name="password" placeholder="Confirm Password" type="password">
+<a href="javascript:%20check_empty()" id="submit">Send</a>
+</form>
+</div>
+</div>
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
       <div id="header">
       </div>
       <section class="blank" data-speed="8" data-type="background" data-offsetY="250" >
