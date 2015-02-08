@@ -10,7 +10,7 @@ display:none;
 position:fixed;
 background: none no-repeat scroll 0% 0% rgba(0, 0, 0, 0.9);
 overflow:auto;
-z-index:2;
+z-index:4;
 }
 img#close {
 position:absolute;
@@ -40,7 +40,6 @@ top: 30px;
 }
 
 .h2 {
-background-color:#FEFFED;
 padding:20px 35px;
 text-align:center;
 border-radius:10px 10px 0 0
