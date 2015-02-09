@@ -10,7 +10,7 @@ display:none;
 position:fixed;
 background: none no-repeat scroll 0% 0% rgba(0, 0, 0, 0.9);
 overflow:auto;
-z-index:4;
+z-index:6;
 }
 img#close {
 position:absolute;
