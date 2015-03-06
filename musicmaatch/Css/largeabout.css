@@ -1,9 +1,29 @@
-﻿Body{
+﻿@import "http://fonts.googleapis.com/css?family=Raleway";
+Body{
 margin: 0;
 padding: 0;
 font-size: 100%;
 font: inherit;
 vertical-align: baseline;
+}
+
+#searchbar{
+width:200px;
+position: absolute;
+top: -40px;
+right: -265px;
+box-shadow:none;
+}
+
+#searchbutton{
+position: relative;
+width: 2%;
+min-width: 20px;
+float: right;
+position: absolute;
+right: -290px;
+top: 3px;
+
 }
 
 #bigButton{
@@ -14,30 +34,33 @@ padding:8px;
 border-radius: 25px;
 margin-left:10px;
 }
+#bigButton:hover{
+background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
+transition:0.2s;
+}
+
 
 
 #logo{
-margin-top:5px;
+top:3.6px;
 padding:5px;
 margin-left:100px;
-z-index:1;
+z-index:2;
 position:fixed;
 background:url(../hbilder/biglogo2.png);
 height:40px;
 width:190px;
 }
 
-
-
 ul.nav{
 position:fixed;
 padding:20px;
 background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
-margin:0px;
 font-weight: bold;
 width:100%;
-
+z-index:1;
 }
+
 
 .nav{
 text-align:center;
@@ -48,8 +71,7 @@ text-align:center;
 .nav li{
 list-style:none;
 display:inline;
-
-
+position:relative;
 }
 
 .nav li a{
@@ -60,10 +82,52 @@ padding: 10px;
 
 }
 
-.nav li a:hover{
-text-decoration:underline;
+
+.blank{
+background-color:#454545;
+height:350px;
+margin-top:-20px;
 
 }
+.blank h1 ,#newsection h1{
+color:white;
+text-align:center;
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 3em;
+line-height: 1.1em;
+margin:0px;
+text-transform: uppercase;
+padding:10px;
+}
+
+.blank img{
+margin:auto;
+}
+.blank p {
+color:white;
+text-align:center;
+margin:auto;
+font-family:'Raleway',sans-serif;
+font-weight: normal;
+font-size: 1em;
+line-height: 1.1em;
+text-transform: uppercase;
+padding:10px;
+width:600px;
+}
+
+#wrap{
+
+width: 500px;
+position:relative;
+margin:auto;
+height:auto;
+top:77px;
+
+
+}
+
 
 
 .story { 
@@ -78,6 +142,46 @@ border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 
 
+#newsection{
+background-color:#454545;
+width: 250px;
+position:fixed;
+height:auto;
+top:57px;
+
+}
+
+#newsection p{
+color:white;
+text-align:center;
+margin:auto;
+font-family:'Raleway',sans-serif;
+font-weight: normal;
+font-size: 1em;
+line-height: 1.1em;
+text-transform: uppercase;
+padding:10px;
+
+}
+
+#newsection h3{
+color:white;
+text-align:center;
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 1.1em;
+line-height: 1.1em;
+margin:0px;
+text-transform: uppercase;
+padding:10px;
+
+}
+
+.newsarticle{
+border: 1px solid #000;
+margin-top: -1px;
+
+}
 
 #footer1{
 

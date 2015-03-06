@@ -1,4 +1,5 @@
-﻿Body{
+﻿@import "http://fonts.googleapis.com/css?family=Raleway";
+Body{
 margin: 0;
 padding: 0;
 font-size: 100%;
@@ -42,8 +43,8 @@ text-align:center;
 .nav li{
 list-style:none;
 display:inline;
-
-
+position:relative;
+right:100px;
 }
 
 .nav li a{
@@ -60,6 +61,25 @@ padding: 10px;
 background: url(../hbilder/Header.jpg) 100% 0 no-repeat fixed; 
 background-size:cover;
 height: 900px; 
+
+}
+
+#searchbar{
+width:150px;
+position: absolute;
+top: -40px;
+right: -215px;
+box-shadow:none;
+}
+
+#searchbutton{
+position: relative;
+width: 2%;
+min-width: 20px;
+float: right;
+position: absolute;
+right: -240px;
+top: 3px;
 
 }
 
@@ -100,9 +120,8 @@ width:600px;
 }
 
 #logo{
-margin-top:1px;
+top:1px;
 padding:5px;
-margin-left:100px;
 z-index:1;
 position:fixed;
 background:url(../hbilder/mediumlogo.png);
@@ -128,8 +147,8 @@ border-bottom: 1px solid rgba(0,0,0,0.4);
 #p2b{
 
 height:auto;
-width: 99%;
-padding: 6px;
+width: 98%;
+padding: 7px;
 }
 
 #Bilder2{
@@ -142,30 +161,33 @@ width:250px;
 }
 
 #blank2{
-
 float:left;
 margin-left: -30px;
 margin-top: 50px;
 
 }
 
-#first { background: url(../hbilder/slide.jpg) 100% 0 no-repeat fixed; 
+#first { 
+background: url(../hbilder/slide.jpg) 25% 0 no-repeat fixed; 
 background-size:cover;
 }
-#second { background: url(../hbilder/slide2.1.jpg) 100% 0 no-repeat fixed;
+
+#second {
+background: url(../hbilder/slide2.jpg) 25% 0 no-repeat fixed;
 background-size:cover;
  }
-#third { background: url(../hbilder/slide3.jpg)  100% 0 no-repeat fixed ;
-
+ 
+#third { 
+background: url(../hbilder/slide2.1.jpg)  25% 0 no-repeat fixed ;
 background-size:cover;
 
  }
-#fourth { background: url(../hbilder/slide4.jpg) 25% 0 no-repeat fixed; 
 
+#fourth { 
+background: url(../hbilder/slide43.jpg) 25% 0 no-repeat fixed; 
 background-size:cover;
 
 }
-
 
 
 #footer1{

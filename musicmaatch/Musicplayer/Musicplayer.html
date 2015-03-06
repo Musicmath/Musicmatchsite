@@ -7,7 +7,7 @@
       <link rel='stylesheet'  media='screen and (min-width:1201px)' href='css/style.css' />
       <link rel='stylesheet' media='screen and (min-width: 841px) and (max-width: 1200px)'  href='Css/mediumindex.css' />
       <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 840px)' href='Css/mobileindex.css' />
-      <link rel='stylesheet' media='screen and (min-width:1201px)' href="../Css/largepopoutform.css" rel="stylesheet"/>
+    <link rel='stylesheet' media='screen and (min-width:1201px)' href="../Css/largepopoutform.css" rel="stylesheet"/>
       <link rel='stylesheet' media='screen and (min-width:841px) and (max-width: 1200px)'
          href="../Css/mediumpopoutform.css" rel="stylesheet"/>
       <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 840px)'
@@ -35,8 +35,11 @@
       </script>
       <script>
          function div_show() {
-         document.getElementById('abc').style.display = "block";
+         document.getElementById('create').style.display = "block";
          }
+		 function div_show1(){
+		   document.getElementById('login').style.display = "block";
+		 }
       </script>
    <body>
       <section id="Menu">
@@ -49,26 +52,58 @@
                <li> <a href="#">Music</a> </li>
                <li> <a href="about.html">Daily</a> </li>
                <li> <a href="#">Contact</a> </li>
-               <li id="bigButton"> <a href="#"> Log in</a> </li>
+               <li id="bigButton"> <a onclick="div_show1()"> Log in</a> </li>
                <li id="bigButton"> <a onclick="div_show()"> create account</a></li>
             </ul>
          </nav>
       </section>
-	     <div id="abc" style="overflow:hidden;">
+	  
+	   <section id="create account">
+      <div id="create" style="overflow:hidden;">
          <div id="popupContact">
             <form action="#" id="form" method="post" name="form">
-               <img id="close" src="../Bilder/close.gif" onclick ="div_hide()">
+               <img class="close" src="../Bilder/close.gif" onclick ="div_hide()">
                <h2 class="h2">Register account</h2>
-               <hr class="hr">
+               <hr class="hr"> </hr>
                <input class="name" name="name" placeholder="First Name" type="text">
                <input class="name" name="name" placeholder="Last Name" type="text">
-               <input id="email" name="email" placeholder="Email" type="text">
+               <input class="email" name="email" placeholder="Email" type="text">
                <input class="password" name="password" placeholder="Password" type="password">
                <input class="password" name="password" placeholder="Confirm Password" type="password">
                <a href="javascript:%20check_empty()" id="submit">Send</a>
             </form>
          </div>
       </div>
+	  </section>
+	  <section id="memberlogin"> 
+<div id="login" style="overflow:hidden;">
+<div id="popuplogin">
+<form id="null" name="form1" method="post" action="../php/checklogin.php">
+<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
+<td><img id="close" src="../Bilder/close.gif" onclick ="div_hide1()"/></td>
+<tr>
+<td><h2 class="h2">Member Login </h2></td>
+</tr>
+<td> <hr class="hr1"> </hr></td>
+<tr>
+<td><input class="email" name="email" placeholder="Email" type="text"></td>
+</tr>
+<tr>
+<td><input class="password" name="password" placeholder="Password" type="password" ></td>
+</tr>
+<tr><!--
+<td>&nbsp;</td>
+<td>&nbsp;</td>-->
+<td><a href="" id="submit2" type="submit" name="Submit" value="Login">Send</a></td>
+</tr>
+</td>
+</form>
+</tr>
+</table>
+</div>
+</div>
+</section>
+	  
 	  <section id="Playlist">
       <div id="container">
 			<h3 style="text-align:center">Playlist</h3>
@@ -101,7 +136,7 @@
       </div>
 	  </section>
 	  <section id="Playbar">
-      <footer>
+      
          <div id="playbar">
             <div id="audio-imagemove">
                <div id="audio-image">
@@ -132,7 +167,7 @@
                <div class="clearfix"></div>
             </div>
          </div>
-      </footer>
+      
 	  </section>
       <script src="js/jquery.js"></script>
       <script src="js/main.js"></script>
