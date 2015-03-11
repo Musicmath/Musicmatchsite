@@ -5,14 +5,15 @@ padding: 0;
 font-size: 100%;
 font: inherit;
 vertical-align: baseline;
+
 }
 
 
 #header{
-background: url(../hbilder/Header.jpg) 25% 0 no-repeat fixed; 
+background: url(../hbilder/Header.jpg) 25% 0 no-repeat fixed;
 background-size:cover;
 height: 900px; 
-
+filter: brightness(50%);
 }
 
 #searchbar{
@@ -57,7 +58,7 @@ background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
 margin:0px;
 font-weight: bold;
 width:100%;
-
+z-index:5;
 }
 
 .nav{
@@ -87,7 +88,7 @@ height:350px;
 margin-top:-20px;
 
 }
-.blank h1{
+.blank h1, #firsth1{
 color:white;
 text-align:center;
 font-family:'Raleway',sans-serif;
@@ -102,12 +103,12 @@ padding:10px;
 .blank img{
 margin:auto;
 }
-.blank p {
+.blank p , #first1{
 color:white;
 text-align:center;
 margin:auto;
 font-family:'Raleway',sans-serif;
-font-weight: normal;
+font-weight: bold;
 font-size: 1em;
 line-height: 1.1em;
 text-transform: uppercase;
@@ -120,7 +121,7 @@ width:600px;
 margin-top:5px;
 padding:5px;
 margin-left:100px;
-z-index:1;
+z-index:100;
 position:fixed;
 background:url(../hbilder/biglogo2.png);
 height:40px;
@@ -137,6 +138,7 @@ max-width:100%;
 margin: auto; 
 border-top: 1px solid rgba(255,255,255,0.3); 
 border-bottom: 1px solid rgba(0,0,0,0.4); 
+/*filter: brightness(50%);*/
 }
 
 
@@ -145,6 +147,8 @@ border-bottom: 1px solid rgba(0,0,0,0.4);
 height:auto;
 width: 99%;
 padding: 6px;
+min-width:1200px;
+position:absolute;
 }
 
 #Bilder2{
@@ -187,7 +191,55 @@ background-size:cover;
 }
 
 footer{
-height:100px;
+height:200px;
 
+}
+
+
+#social{
+text-decoration:none;
+list-style:none;
+position: relative;
+float: right;
+bottom: 135px;
+right: 100px;
+}
+ 
+#social a:hover{
+opacity:0.5;
+transition:ease-in 0.2s;
+
+} 
+
+
+footer li , #social p{
+
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+margin:0px;
+list-style:none;
+padding:5px;
+}
+#first1{
+position: absolute;
+top: 400px;
+width: 80%;
+max-width: 500px;
+left: 500px;
+}
+#firsth1{
+margin: auto;
+text-align: center;
+color: white;
+
+}
+#info p {
+display:inline;
+bottom:5px;
+padding:10px;
+margin:10px;
+position:relative;
 }
 
