@@ -65,10 +65,10 @@ height: 900px;
 }
 
 #searchbar{
-width:150px;
+width:100px;
 position: absolute;
 top: -40px;
-right: -215px;
+right: -170px;
 box-shadow:none;
 }
 
@@ -78,7 +78,7 @@ width: 2%;
 min-width: 20px;
 float: right;
 position: absolute;
-right: -240px;
+right: -200px;
 top: 3px;
 
 }
