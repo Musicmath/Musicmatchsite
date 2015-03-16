@@ -85,7 +85,7 @@ padding: 10px;
 .blank{
 background-color:#454545;
 height:350px;
-margin-top:-20px;
+
 
 }
 .blank h1, #firsth1{
@@ -97,7 +97,6 @@ font-size: 3em;
 line-height: 1.1em;
 margin:0px;
 text-transform: uppercase;
-padding:10px;
 }
 
 .blank img{
@@ -131,14 +130,12 @@ width:190px;
 
 .story { 
 height: 900px; 
-padding: 0; 
-margin: 0; 
+padding: 0px; 
+margin: 0px; 
 width: 100%; 
 max-width:100%;
 margin: auto; 
-border-top: 1px solid rgba(255,255,255,0.3); 
-border-bottom: 1px solid rgba(0,0,0,0.4); 
-/*filter: brightness(50%);*/
+filter: brightness(50%);
 }
 
 
@@ -149,6 +146,8 @@ width: 99%;
 padding: 6px;
 min-width:1200px;
 position:absolute;
+z-index: 1;
+bottom: -612px;
 }
 
 #Bilder2{

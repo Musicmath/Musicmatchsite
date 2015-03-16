@@ -1,4 +1,4 @@
-
+/*Denna kod gör så att parallax scrolling fungerar på hemsidan.*/
 $(document).ready(function(){
 						
 
@@ -56,18 +56,7 @@ $(document).ready(function(){
 				});
 			
 	
-				$('[data-type="video"]', $self).each(function() {
 					
-	
-					var $video = $(this);
-					
-			
-					var yPos = -($window.scrollTop() / $video.data('speed'));					
-					var coords = (yPos + $video.data('offsetY')) + 'px';
-	
-					$video.css({ top: coords });													
-					
-				}); 	
 			
 			}; 
 	
