@@ -38,7 +38,7 @@ top: 3px;
 #bigButton{
 font-size:1.1em;
 font-weight: bold;
-background-color:#00BFFF	;
+background:#00BFFF	;
 padding:8px;
 border-radius: 25px;
 margin-left:10px;
@@ -48,7 +48,7 @@ cursor:pointer;
 
 #bigButton:hover{
 background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
-transition:0.2s;
+transition: color 0.2s ease 0s;
 }
 
 ul.nav{
@@ -78,7 +78,11 @@ font-family:helvetica;
 text-decoration:none;
 Color:white;
 padding: 10px;
+transition: color 0.2s ease 0s;
+}
 
+.nav li a:hover{
+color:#00BFFF;
 }
 
 
