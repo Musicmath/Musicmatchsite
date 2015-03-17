@@ -36,7 +36,7 @@ top: 3px;
 
 }
 
-#bigButton{
+#bigButton,#bigButton2{
 font-size:1.1em;
 font-weight: bold;
 background:#00BFFF	;
@@ -47,7 +47,7 @@ transition:0.2s;
 cursor:pointer;
 }
 
-#bigButton:hover{
+#bigButton:hover,#bigButton2:hover{
 background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
 transition: color 0.2s ease 0s;
 }
@@ -106,6 +106,15 @@ text-transform: uppercase;
 .blank img{
 margin:auto;
 }
+.arrowdown{
+background:url(../Bilder/arrowdown.png);
+height: 60px;
+width: 60px;
+position: relative;
+top: 20px;
+display: block;
+margin: 0px auto;
+}
 .blank p , #first1{
 color:black;
 text-align:center;
@@ -151,7 +160,7 @@ position:relative;
 height:auto;
 width: 99%;
 padding: 6px;
-min-width:1200px;
+min-width:600px;
 position:absolute;
 z-index: 1;
 bottom: -612px;
@@ -160,8 +169,6 @@ bottom: -612px;
 #Bilder2{
 box-shadow: -10px 10px 10px 3px black;
 margin-top:30px;
-
-
 }
 
 #blank2{
