@@ -13,6 +13,7 @@ vertical-align: baseline;
 background: url(../hbilder/Header.jpg) 25% 0 no-repeat fixed;
 background-size:cover;
 height: 900px; 
+-webkit-filter: brightness(50%);
 filter: brightness(50%);
 }
 
@@ -87,13 +88,12 @@ color:#00BFFF;
 
 
 .blank{
-background-color:#454545;
 height:350px;
 
 
 }
 .blank h1, #firsth1{
-color:white;
+color:black;
 text-align:center;
 font-family:'Raleway',sans-serif;
 font-weight: bold;
@@ -107,7 +107,7 @@ text-transform: uppercase;
 margin:auto;
 }
 .blank p , #first1{
-color:white;
+color:black;
 text-align:center;
 margin:auto;
 font-family:'Raleway',sans-serif;
@@ -139,7 +139,10 @@ margin: 0px;
 width: 100%; 
 max-width:100%;
 margin: auto; 
+-webkit-filter: brightness(50%);
 filter: brightness(50%);
+top:1px;
+position:relative;
 }
 
 
@@ -214,6 +217,10 @@ transition:ease-in 0.2s;
 
 } 
 
+#info a{
+text-decoration:none;
+color:black;
+}
 
 footer li , #social p{
 
@@ -229,8 +236,9 @@ padding:5px;
 position: absolute;
 top: 400px;
 width: 80%;
-max-width: 500px;
-left: 500px;
+left:150px;
+margin:auto;
+color:white;
 }
 #firsth1{
 margin: auto;

@@ -20,7 +20,7 @@ cursor:pointer;
 
 #bigButton:hover{
 background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
-transition:0.2s;
+transition: color 0.2s ease 0s;
 }
 
 
@@ -31,7 +31,7 @@ background: no-repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
 margin:0px;
 font-weight: bold;
 width:100%;
-
+z-index:5;
 }
 
 .nav{
@@ -52,16 +52,21 @@ font-family:helvetica;
 text-decoration:none;
 Color:white;
 padding: 10px;
+transition: color 0.2s ease 0s;
+}
 
+.nav li a:hover{
+color:#00BFFF;
 }
 
 
 
 #header{
-background: url(../hbilder/Header.jpg) 100% 0 no-repeat fixed; 
+background: url(../hbilder/Header.jpg) 25% 0 no-repeat fixed; 
 background-size:cover;
-height: 900px; 
-
+height: 900px;
+-webkit-filter: brightness(50%); 
+filter: brightness(50%);
 }
 
 #searchbar{
@@ -83,16 +88,27 @@ top: 3px;
 
 }
 
-
-.blank{
-background-color:#454545;
-height:300px;
-margin-top:-20px;
+#first1{
+position: absolute;
+top: 400px;
+width: 80%;
+left:300px;
+margin:auto;
+}
+#firsth1{
+margin: auto;
+text-align: center;
+color: white;
 
 }
 
-.blank h1{
-color:white;
+.blank{
+height:350px;
+
+}
+
+.blank h1, #firsth1{
+color:black;
 text-align:center;
 font-family:'Raleway',sans-serif;
 font-weight: bold;
@@ -106,8 +122,8 @@ padding:10px;
 .blank img{
 margin:auto;
 }
-.blank p {
-color:white;
+.blank p, #first1{
+color:black;
 text-align:center;
 margin:auto;
 font-family:'Raleway',sans-serif;
@@ -122,7 +138,7 @@ width:600px;
 #logo{
 top:1px;
 padding:5px;
-z-index:1;
+z-index:100;
 position:fixed;
 background:url(../hbilder/mediumlogo.png);
 height:50px;
@@ -139,16 +155,23 @@ margin: 0;
 width: 100%; 
 max-width:100%;
 margin: auto; 
-border-top: 1px solid rgba(255,255,255,0.3); 
-border-bottom: 1px solid rgba(0,0,0,0.4); 
+-webkit-filter: brightness(50%);
+filter: brightness(50%);
+top: 1px;
+position:relative;
+}
 }
 
 
 #p2b{
 
 height:auto;
-width: 98%;
-padding: 7px;
+width: 99%;
+padding: 6px;
+min-width:1200px;
+position:absolute;
+z-index: 1;
+bottom: -612px;
 }
 
 #Bilder2{
@@ -173,18 +196,18 @@ background-size:cover;
 }
 
 #second {
-background: url(../hbilder/slide2.jpg) 25% 0 no-repeat fixed;
+background: url(../hbilder/slide2.1.jpg) 25% 0 no-repeat fixed;
 background-size:cover;
  }
  
 #third { 
-background: url(../hbilder/slide2.1.jpg)  25% 0 no-repeat fixed ;
+background: url(../hbilder/slide3.jpg)  25% 0 no-repeat fixed ;
 background-size:cover;
 
  }
 
 #fourth { 
-background: url(../hbilder/slide43.jpg) 25% 0 no-repeat fixed; 
+background: url(../hbilder/slide4.jpg) 25% 0 no-repeat fixed; 
 background-size:cover;
 
 }
@@ -197,7 +220,46 @@ background-size:cover;
 }
 
 footer{
-height:100px;
+height:200px;
 
 }
 
+
+#social{
+text-decoration:none;
+list-style:none;
+position: relative;
+float: right;
+bottom: 135px;
+right: 100px;
+}
+ 
+#social a:hover{
+opacity:0.5;
+transition:ease-in 0.2s;
+
+} 
+
+#info a{
+text-decoration:none;
+color:black;
+}
+
+footer li , #social p{
+
+font-family:'Raleway',sans-serif;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+margin:0px;
+list-style:none;
+padding:5px;
+}
+
+#info p {
+display:inline;
+bottom:5px;
+padding:10px;
+margin:10px;
+position:relative;
+}
