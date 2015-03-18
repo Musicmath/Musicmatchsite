@@ -54,6 +54,7 @@ position: relative;
 top: 20px;
 display: block;
 margin: 0px auto;
+z-index:2;
 }
 
 .blank h1, #firsth1{
@@ -192,7 +193,7 @@ padding: 6px;
 min-width:0px;
 position:absolute;
 z-index: 1;
-bottom: -469px;
+bottom: -550px;
 }
 
 #Bilder2{
